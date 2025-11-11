@@ -164,3 +164,5 @@ fastnas-website/
 Open source - Made with ❤️ for the community
 
 Thank you for using our website!
+
+<!-- Workflow test -->
