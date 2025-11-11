@@ -1,5 +1,12 @@
 import React from 'react'
 
+// Import images
+import TailscaleLogo from '/public/assets/Tailscale-Logo-Black.svg.png'
+import PythonLogo from '/public/assets/python-black-logo-24081.svg'
+import FastAPILogo from '/public/assets/fastapi-svgrepo-com.svg'
+import AppleLogo from '/public/assets/Apple.svg'
+import LinuxLogo from '/public/assets/linux-svgrepo-com.svg'
+
 function Features() {
   return (
     <section className="relative min-h-screen snap-start flex items-center justify-center px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
@@ -14,14 +21,11 @@ function Features() {
               </h3>
               <div className="border-2 border-black rounded-2xl p-3 sm:p-4 lg:p-6 flex flex-wrap items-center justify-center gap-3 sm:gap-4 lg:gap-6 bg-fastnas-red">
                 {/* Tailscale Logo */}
-                <img src="/assets/Tailscale-Logo-Black.svg.png" alt="Tailscale" className="h-10 sm:h-12 lg:h-14 object-contain" />
-                
+                <img src={TailscaleLogo} alt="Tailscale" className="h-10 sm:h-12 lg:h-14 object-contain" />                
                 {/* Python Logo */}
-                <img src="assets/python-black-logo-24081.svg" alt="Python" className="h-10 sm:h-12 lg:h-14 object-contain" />
-                
+                <img src={PythonLogo} alt="Python" className="h-10 sm:h-12 lg:h-14 object-contain" />                
                 {/* FastAPI Logo */}
-                <img src="assets/fastapi-svgrepo-com.svg" alt="FastAPI" className="h-10 sm:h-12 lg:h-14 object-contain" />
-              </div>
+                <img src={FastAPILogo} alt="FastAPI" className="h-10 sm:h-12 lg:h-14 object-contain" />              </div>
             </div>
 
             {/* Supported Platforms */}
@@ -31,11 +35,9 @@ function Features() {
               </h3>
               <div className="border-2 border-black rounded-2xl p-3 sm:p-4 lg:p-6 flex flex-wrap items-center justify-center gap-4 sm:gap-6 lg:gap-10 bg-fastnas-red">
                 {/* Apple Logo */}
-                <img src="/assets/Apple.svg" alt="Apple" className="h-10 sm:h-12 lg:h-14 object-contain" />
-
+                <img src={AppleLogo} alt="Apple" className="h-10 sm:h-12 lg:h-14 object-contain" />
                 {/* Linux Logo */}
-                <img src="assets/linux-svgrepo-com.svg" alt="Linux" className="h-10 sm:h-12 lg:h-14 object-contain" />
-
+                <img src={LinuxLogo} alt="Linux" className="h-10 sm:h-12 lg:h-14 object-contain" />
                 {/* Windows Logo */}
                 <svg className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14" viewBox="0 0 24 24" fill="black">
                   <path d="M0 3.449L9.75 2.1v9.451H0m10.949-9.602L24 0v11.4H10.949M0 12.6h9.75v9.451L0 20.699M10.949 12.6H24V24l-12.9-1.801"/>
