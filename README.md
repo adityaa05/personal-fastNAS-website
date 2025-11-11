@@ -159,13 +159,8 @@ fastnas-website/
 4. **Contact** - Email and GitHub issues
 5. **Footer** - Simple footer message
 
-## Notes
-
-- The @tailwind warnings in CSS are expected and will be processed by PostCSS during build
-- Make sure to add your custom fonts to the `public/fonts/` directory
-- Update the GitHub and social media links in the Contact component
-- The design closely follows the mockup from `/Users/adityaa/Downloads/djanji`
-
 ## License
 
 Open source - Made with ❤️ for the community
+
+Thank you for using our website!
